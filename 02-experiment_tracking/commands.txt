@@ -1,0 +1,4 @@
+# Paste the following in terminal once u run the mlflow using "mlflow" command in terminal
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+# Above command tells mlflow that we want to store all the artifacts and metadata in sqlite db.
